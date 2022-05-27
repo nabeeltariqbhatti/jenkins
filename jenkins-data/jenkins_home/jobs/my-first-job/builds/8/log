@@ -1,0 +1,9 @@
+Started by user [8mha:////4IuVm6448IlRW4uuhlDB2tbHfhGg+eQfPBXVMw5I3fOiAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/my-first-job
+[my-first-job] $ /bin/sh -xe /tmp/jenkins16914854240803189246.sh
++ NAME=NABEEL
++ LASTNAME=BHATTI
++ /tmp/script.sh NABEEL BHATTI
+Hello, NABEEL BHATTI
+Finished: SUCCESS
