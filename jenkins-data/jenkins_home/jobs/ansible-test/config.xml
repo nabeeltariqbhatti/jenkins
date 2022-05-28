@@ -3,7 +3,17 @@
   <actions/>
   <description></description>
   <keepDependencies>false</keepDependencies>
-  <properties/>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>ANSIBLE_MESSAGE</name>
+          <defaultValue>HELLO WORLD</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
   <scm class="hudson.scm.NullSCM"/>
   <canRoam>true</canRoam>
   <disabled>false</disabled>
@@ -29,12 +39,23 @@
       <sudoUser></sudoUser>
       <forks>5</forks>
       <unbufferedOutput>true</unbufferedOutput>
-      <colorizedOutput>false</colorizedOutput>
+      <colorizedOutput>true</colorizedOutput>
       <disableHostKeyChecking>false</disableHostKeyChecking>
       <additionalParameters></additionalParameters>
       <copyCredentialsInWorkspace>false</copyCredentialsInWorkspace>
+      <extraVars>
+        <org.jenkinsci.plugins.ansible.ExtraVar>
+          <key>MSG</key>
+          <value>$ANSIBLE_MESSAGE</value>
+          <hidden>false</hidden>
+        </org.jenkinsci.plugins.ansible.ExtraVar>
+      </extraVars>
     </org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder>
   </builders>
   <publishers/>
-  <buildWrappers/>
+  <buildWrappers>
+    <hudson.plugins.ansicolor.AnsiColorBuildWrapper plugin="ansicolor@1.0.1">
+      <colorMapName>xterm</colorMapName>
+    </hudson.plugins.ansicolor.AnsiColorBuildWrapper>
+  </buildWrappers>
 </project>
