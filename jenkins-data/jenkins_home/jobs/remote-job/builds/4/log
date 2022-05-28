@@ -1,0 +1,17 @@
+Started by user [8mha:////4IuVm6448IlRW4uuhlDB2tbHfhGg+eQfPBXVMw5I3fOiAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/remote-job
+[SSH] executing pre build script:
+DB_NAME="testdb"
+AWS_SECRET_KEY=**********
+DB_HOST="db_host"
+BUCKET_NAME="myjenkins-db-backup"
+DB_PASSWORD=**********
+
+/tmp/script.sh  $DB_HOST $DB_PASSWORD $DB_NAME $AWS_SECRET_KEY $BUCKET_NAME
+bash: line 6: /tmp/script.sh: Is a directory
+
+[SSH] completed
+[SSH] exit-status: 126
+
+Finished: FAILURE

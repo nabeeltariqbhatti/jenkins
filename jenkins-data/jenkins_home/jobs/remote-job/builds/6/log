@@ -1,0 +1,23 @@
+Started by user [8mha:////4IuVm6448IlRW4uuhlDB2tbHfhGg+eQfPBXVMw5I3fOiAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/remote-job
+[SSH] executing pre build script:
+DB_NAME="testdb"
+AWS_SECRET_KEY=**********
+DB_HOST="db_host"
+BUCKET_NAME="myjenkins-db-backup"
+DB_PASSWORD=**********
+
+/tmp/script.sh  $DB_HOST $DB_PASSWORD $DB_NAME $AWS_SECRET_KEY $BUCKET_NAME
+Uploading files
+warning: Skipping file /tmp/ks-script-DrRL8A. File/Directory is not readable.
+warning: Skipping file /tmp/yum.log. File/Directory is not readable.
+Completed 0 file(s) with ~0 file(s) remaining (calculating...)Completed 0 file(s) with ~0 file(s) remaining (calculating...)Completed 1.8 KiB/1.8 KiB (1.9 KiB/s) with 1 file(s) remainingupload: ../../tmp/db-18-20-48.sql to s3://myjenkins-db-backup/db-18-20-48.sql
+
+[SSH] completed
+[SSH] exit-status: 0
+
+[SSH] executing post build script:
+
+
+Finished: SUCCESS

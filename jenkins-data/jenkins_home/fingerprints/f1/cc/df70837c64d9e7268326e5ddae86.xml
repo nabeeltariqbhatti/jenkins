@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-05-27 18:02:02.604 UTC</timestamp>
+  <md5sum>f1ccdf70837c64d9e7268326e5ddae86</md5sum>
+  <fileName>Credential id=DB _PASSWORD name=DB _PASSWORD</fileName>
+  <usages>
+    <entry>
+      <string>remote-job</string>
+      <ranges>3-6</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

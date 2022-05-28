@@ -1,0 +1,12 @@
+Started by user [8mha:////4IuVm6448IlRW4uuhlDB2tbHfhGg+eQfPBXVMw5I3fOiAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/remote-job
+[SSH] executing pre build script:
+
+echo "I was executed" > /tmp/$(date).txt
+bash: line 1: /tmp/$(date).txt: ambiguous redirect
+
+[SSH] completed
+[SSH] exit-status: 1
+
+Finished: FAILURE

@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-05-27 18:02:02.719 UTC</timestamp>
+  <md5sum>df8e6e185e68db71b6544e018cad49f4</md5sum>
+  <fileName>Credential id=AWS_SECRET_ACCESS_KEY name=AWS_SECRET_ACCESS_KEY</fileName>
+  <usages>
+    <entry>
+      <string>remote-job</string>
+      <ranges>3-6</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
