@@ -149,3 +149,23 @@ cd
 cd ansible
 ansible -i hosts -m ping test1
 exit
+cd 
+cd ansible
+ls
+cd play.*
+cat  play.*
+ansible-playbook -i hosts play.yml
+exit
+cd 
+cd /ansible
+cd home
+cd $Home
+cd /ansible
+ls
+cd ansible/
+pwd
+ls
+cd ..
+cd ansible/
+ssh -i remote-key remote_user@remote_host
+exit
