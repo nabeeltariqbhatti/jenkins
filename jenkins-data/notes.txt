@@ -26,3 +26,11 @@ upload backup to s3 using command after configuration
  aws s3 cp /tmp/db_backup.sql  s3://myjenkins-db-backup/backup_manual_1.sql
 for f in $(find /tmp -name '*.pdf' -or -name '*.doc'); do rm $f; done
 
+
+http://tutorialspots.com/install-php-7-on-centos-7-3727.html install php7 on centos7
+
+ yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
+yum --disablerepo="*" --enablerepo="remi-safe" list php[7-9][0-9].x86_64
+ yum install php php-mysqlnd php-fpm
+
+https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-centos-7

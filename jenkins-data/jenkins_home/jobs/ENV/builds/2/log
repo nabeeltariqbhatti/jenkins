@@ -1,0 +1,7 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/ENV
+[ENV] $ /bin/sh -xe /tmp/jenkins17775532597769017385.sh
++ echo job build number is 2
+job build number is 2
+Finished: SUCCESS

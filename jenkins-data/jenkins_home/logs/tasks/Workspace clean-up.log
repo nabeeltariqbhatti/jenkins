@@ -1,3 +1,5 @@
-Started at Wed May 25 14:28:44 UTC 2022
+Started at Sun May 29 18:02:46 UTC 2022
+Checking ansible-test
 Checking my-first-job
-Finished at Wed May 25 14:28:44 UTC 2022. 25ms
+Checking remote-job
+Finished at Sun May 29 18:02:46 UTC 2022. 561ms

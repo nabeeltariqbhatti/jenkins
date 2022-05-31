@@ -169,3 +169,42 @@ cd ..
 cd ansible/
 ssh -i remote-key remote_user@remote_host
 exit
+ls
+cd $home
+ls
+cd tmp
+ls
+ssh web
+ansible -m ping -i hosts  web1 
+ansible -m ping -i hosts  test1
+cd 
+cd ansible
+ansible -m ping -i hosts  test1
+ansible -m ping -i hosts  web1
+cat hosts
+cd ..
+exit
+cd 
+cd ansible
+cat hosts
+ll
+ls -l
+l
+ll
+vi hosts
+vi hosts
+vim hosts
+nano hots
+nano hosts
+ls
+yum install vim
+apt  install vim
+yum -y install nano
+sudo yum -y install nano
+exit
+ssh web 
+cd 
+cd ansible
+ssh -m ping -i hosts web1
+ansible  -m ping -i hosts web1
+ exit

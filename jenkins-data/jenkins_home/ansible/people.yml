@@ -1,0 +1,4 @@
+- host: web1
+  tasks: 
+    - template 
+
