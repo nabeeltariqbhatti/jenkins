@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-06-03 16:54:49.481 UTC</timestamp>
+  <md5sum>903e47623a3cf65b45151d0611f2d1e3</md5sum>
+  <fileName>Credential id=cdb36b86-bcc4-4d6d-8f0a-ffe069d66520 name=root/******</fileName>
+  <usages>
+    <entry>
+      <string>maven-sample-app</string>
+      <ranges>6</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

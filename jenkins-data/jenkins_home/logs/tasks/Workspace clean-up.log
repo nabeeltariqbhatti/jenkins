@@ -1,5 +1,7 @@
-Started at Sun May 29 18:02:46 UTC 2022
+Started at Fri Jun 03 16:43:06 UTC 2022
 Checking ansible-test
+Checking ENV
+Checking maven-sample-app
 Checking my-first-job
 Checking remote-job
-Finished at Sun May 29 18:02:46 UTC 2022. 561ms
+Finished at Fri Jun 03 16:43:06 UTC 2022. 178ms

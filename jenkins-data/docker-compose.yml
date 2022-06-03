@@ -46,6 +46,8 @@ services:
     hostname: 'gitlab.example.com'
     ports:
       - "8090:80"
+    environment: 
+      - GITLAB_SKIP_UNMIGRATED_DATA_CHECK=true
     volumes:
       - "$GITLAB_HOME/config:/etc/gitlab"
       - "$GITLAB_HOME/logs:/var/log/gitlab"
