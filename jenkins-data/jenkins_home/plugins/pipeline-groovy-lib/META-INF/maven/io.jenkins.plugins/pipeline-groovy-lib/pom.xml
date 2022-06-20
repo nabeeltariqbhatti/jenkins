@@ -119,7 +119,7 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-multibranch</artifactId>
-      <version>2.26</version>
+      <version>707.v71c3f0a_6ccdb_</version>
       <scope>compile</scope>
       <optional>true</optional>
     </dependency>
