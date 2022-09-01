@@ -480,7 +480,7 @@ THE SOFTWARE.
     <dependency>
       <groupId>org.jsoup</groupId>
       <artifactId>jsoup</artifactId>
-      <version>1.14.3</version>
+      <version>1.15.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
